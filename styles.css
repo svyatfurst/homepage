@@ -99,6 +99,9 @@ margin-bottom: 15px;
   text-decoration: none;
   display: flex;
   justify-content: start;
+  padding: 10px;
+  transition: all 0.25s;
+  border-radius: 5px;
 }
 
 .contact-info__item:not(:last-child) {
@@ -116,9 +119,9 @@ margin-bottom: 15px;
   fill: var(--icon-color);
 }
 
-.contact-info__item-icon {
-  height: 1.1428rem;
-  vertical-align: text-bottom;
+.contact-info__item:hover{
+    background-color: #ff9900da;
+    color: white;
 }
 
 .contact-info__avatar {
